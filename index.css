@@ -1,0 +1,287 @@
+.mainnav {
+    filter: drop-shadow(1px 1px 3px gray);
+}
+
+.nav-item {
+    font-family: roboto;
+    font-size: 20px;
+    color: #2E3192;
+}
+
+#login {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+#signup {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+#agent {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Roboto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.right1 {
+    font-size: 40px;
+    text-align: center;
+    color: dimgray;
+}
+
+.right2 {
+    font-size: 17px;
+    text-align: center;
+    margin-top: -35px;
+    color: dimgray;
+}
+
+.icon1 {
+    font-size: 45px;
+    color: dimgray;
+    margin-top: -10px;
+}
+
+.bg-img {
+    background-image: url("Images/bgimg.png");
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.left {
+    font-family: roboto;
+    font-size: 70px;
+    color: aliceblue;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 42%;
+    left: 12%;
+}
+
+.left1 {
+    font-family: roboto;
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 37%;
+    left: 17%;
+    border-left: 3px solid bisque;
+    border-right: 3px solid bisque;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon2 {
+    font-size: 20px;
+    color: dimgray;
+}
+
+.container8 {
+    position: absolute;
+    right: 0;
+    margin: 120px;
+    margin-right: 180px;
+    max-width: 340px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 5px grey);
+}
+
+input[type=text],
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    border: none;
+    background: aliceblue;
+}
+
+input[type=text]:focus,
+input[type=text]:focus {
+    background-color: aliceblue;
+    outline: none;
+}
+
+#classes {
+    background-color: aliceblue;
+    border: none;
+}
+
+select[name=classes]:focus,
+select[name=classes]:focus {
+    background-color: aliceblue;
+    outline: none;
+}
+
+.b2 {
+    background-color: #2E3192;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+}
+
+.b2:hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+
+.container7 {
+    position: absolute;
+    right: 0;
+    margin-top: 660px;
+    margin-right: 180px;
+    max-width: 340px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(1px 1px 5px grey);
+}
+
+.b3 {
+    background-color: #2E3192;
+    color: white;
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    cursor: pointer;
+    width: 46%;
+    opacity: 1;
+}
+
+.b3:hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+
+.head1 {
+    font-family: roboto thin;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.myclass {
+    width: 90%;
+    margin-top: 4%;
+}
+
+.bg-primary {
+    background-color: #2E3192;
+}
+
+a,
+a:hover {
+    color: #2E3192;
+    text-decoration: none;
+}
+
+.abc:hover {
+    filter: invert(15%)
+}
+
+.img-text {
+    font-family: roboto;
+    font-size: 20px;
+    color: #2E3192;
+}
+
+.item img {
+    margin-bottom: 10px;
+}
+
+.cards {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 0;
+}
+
+.box {
+    max-width: 90%;
+}
+
+.b1 {
+    background-color: #2E3192;
+}
+
+.card-title {
+    font-family: roboto;
+    font-size: 22px;
+}
+
+.card-text {
+    font-family: roboto light;
+    font-size: 18px;
+}
+
+.footbg {
+    background: #2E3192;
+    margin-top: 80px;
+}
+
+#foottext {
+    font-family: roboto;
+}
+
+#copyright {
+    font-family: roboto;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .bg-img {
+        background-image: none;
+        min-height: 60%;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .left1 {
+        display: none;
+    }
+
+    .container8 {
+        display: contents;
+    }
+
+    .container7 {
+        display: contents;
+    }
+
+    .icon1 {
+        display: none;
+    }
+
+    .head1 {
+        font-size: 30px;
+    }
+
+    .img-text {
+        font-size: 18px;
+    }
+}
